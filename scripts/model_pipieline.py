@@ -23,7 +23,7 @@ pd.set_option('display.max_rows', 500)
 import seaborn as sns
 from sklearn import metrics
  
-df = pd.read_csv("data/backend-dev-data-dataset.txt", sep=",", low_memory=False)
+df = pd.read_csv("backend-dev-data-dataset.txt", sep=",", low_memory=False)
 
 ## Reemplazamos los valores nulos con la mediana de la columna antes de partir el dataset
 

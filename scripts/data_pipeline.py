@@ -12,7 +12,7 @@ import concurrent.futures
 spark = SparkSession.builder.appName("DataPipeline").getOrCreate()
 
 # Cargar los datos en un DataFrame
-df = spark.read.csv("backend-dev-data-dataset.txt", header=True, inferSchema=True)
+df = spark.read.csv("data/backend-dev-data-dataset.txt", header=True, inferSchema=True)
 
 #### FUNCIONES PASO 1: 
 
